@@ -5,7 +5,6 @@ import { AppMaterialModule } from '../share/app-material/app-material.module';
 import { CategoriaPipe } from './pipes/categoria.pipe';
 
 
-
 @NgModule({
   declarations: [
     ErrorDialogComponent,
