@@ -19,8 +19,9 @@ private readonly API = '/assets/cursos.json';
       first(),
       delay(5000)
     );
-
-
+    }
+    save(record: Curso){
+      return this.httpClient.post<Curso>(this.API, record).pipe(first());
 
     }
 }
